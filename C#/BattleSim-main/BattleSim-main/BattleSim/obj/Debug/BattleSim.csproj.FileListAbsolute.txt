@@ -1,0 +1,15 @@
+C:\Users\Julian\source\repos\BattleSim\bin\Debug\BattleSim.exe.config
+C:\Users\Julian\source\repos\BattleSim\bin\Debug\BattleSim.exe
+C:\Users\Julian\source\repos\BattleSim\bin\Debug\BattleSim.pdb
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.csprojAssemblyReference.cache
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\MainWindow.g.cs
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\App.g.cs
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim_MarkupCompile.cache
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim_MarkupCompile.lref
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\MainWindow.baml
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.g.resources
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.Properties.Resources.resources
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.csproj.GenerateResource.cache
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.csproj.CoreCompileInputs.cache
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.exe
+C:\Users\Julian\source\repos\BattleSim\obj\Debug\BattleSim.pdb
