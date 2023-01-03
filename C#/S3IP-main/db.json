@@ -1,0 +1,14 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "post": "Testpost van mockdata 1",
+        "link": "https://open.spotify.com/embed/track/2E7W1X4maFFcjHrVrFA7Vs?utm_source=generator"
+      },
+      {
+        "id": 1,
+        "post": "Testpost van mockdata 2",
+        "link": "https://open.spotify.com/embed/track/37y3r1updgfP7Jb2JBuYe6?utm_source=generator"
+      }
+    ]
+}
