@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Login page";
+}
+
+
+@model IEnumerable<LoginModel>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login page</title>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0">
+    <tr>
+        @using (Html.BeginForm("LoginClick", "login"))
+        {
+
+
+            <td style="width: 150px">
+                Username:<br />
+                <input type="text" name="txtUsername" Width="140" />
+            </td><td style="width: 150px">
+                Password:<br />
+                <input type="text" name="txtPassword" Width="140" />
+            </td>
+            <td style="width: 150px">
+                <button name="btnLogin" Text="Login" OnClick="LoginClick" Width="140" Height="140"> </button>
+            </td>              
+        }
+        </tr>
+        
+    </table>
+    
+</body>
+</html>

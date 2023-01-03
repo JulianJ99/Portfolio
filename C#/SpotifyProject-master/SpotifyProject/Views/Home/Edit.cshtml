@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Edit album";
+}
+
+
+@model IEnumerable<Spotify.Services.Album>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit album</title>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            @using (Html.BeginForm("Edit", "home"))
+            {
+                @foreach (var album in Model)
+                {
+
+
+                    <td style="width: 150px">
+                        Title:<br />
+                        <input type="text" name="txtTitleEdit" value="@album.title" Width="140" />
+                    </td>
+                    <td style="width: 150px">
+                        Artist:<br />
+                        <input type="text" name="txtArtistEdit" value="@album.artist" Width="140" />
+                    </td>
+                    <td style="width: 150px">
+                        Link:<br />
+                        <input type="text" name="txtLinkEdit" value="@album.link" Width="140" />
+                    </td>
+                    <td style="width: 150px">
+                        <button name="btnEdit" Text="Edit Album" OnClick="Edit" Width="140" Height="140"> </button>
+                    </td>
+
+                }
+            }
+        </tr>
+
+    </table>
+
+</body>
+</html>

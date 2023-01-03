@@ -49,8 +49,8 @@ namespace SpotifyProject
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    name: "login",
+                    pattern: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }
